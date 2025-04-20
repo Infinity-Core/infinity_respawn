@@ -1,0 +1,5 @@
+RegisterNetEvent('infinity_respawn:loseMoney')
+AddEventHandler('infinity_respawn:loseMoney', function(source, XP, CASH)
+    exports.infinity_core:RemoveXP(source, tonumber(XP))
+    exports.infinity_core:RemoveCash(source, tonumber(CASH))
+end)

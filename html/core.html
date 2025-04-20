@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="core.css" type="text/css">
+        <link rel="stylesheet" href="./vendor/animations.css" />
+        <link href="./vendor/bootstrap.css" rel="stylesheet">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    </head>
+<body>
+    <div id="identity_manager">
+        <div class="d-flex h-100">
+            <div class="block_ui my-auto ms-auto d-flex flex-column animate__animated  animate__fadeIn text-light">
+              
+                <div class="container mx-auto mt-auto text-center">
+                    <h6 class="mb-0">You <b class="text-danger">died</b> away from a doctor, choice your respawn point</h6>
+                    <h1 class="my-2">Select respawn point</h1>
+                </div>
+
+                <div class="container mb-auto mt-5">
+                    <div class="row">
+
+                        <div class="col-lg-4 px-0">
+                            <div class="case_respawn bg_01 d-flex" data-respawn="1">
+                                <div class="mt-auto px-2 py-4 town_respawn">Valentine</div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 px-0">
+                            <div class="case_respawn bg_02 d-flex" data-respawn="2">
+                                <div class="mt-auto px-2 py-4 town_respawn">Saint-Denis</div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 px-0">
+                            <div class="case_respawn bg_03 d-flex" data-respawn="3">
+                                <div class="mt-auto px-2 py-4 town_respawn">BlackWater</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./core.js" type="text/javascript"></script>
+</body>
+</html>
